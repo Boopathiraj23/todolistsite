@@ -1,0 +1,199 @@
+*{
+     width: 100%;
+     height: 100%;
+     font-family: sans-serif;
+}
+.container{
+     display: flex;
+     width: 40%;
+     height:75%;
+     background-color: salmon;
+     align-items: center;
+     align-content: center;
+     margin-left: 400px;
+     margin-top: 200px;
+     border-radius: 10px;
+}
+.input-controler{
+     position: absolute;
+     display: flex;
+     padding: 10px;
+     width: 50%;
+     height: 5%;
+     margin-top: -311px;
+ 
+}
+.input-controler label{
+     position: absolute;
+     margin-top: -30px;
+     width: 0%;
+}
+.input-controler input{
+     /* position: absolute; */
+     padding: 2px;
+     border-radius: 10px;
+     outline: none;
+     border: 2px solid blue;
+
+}
+.input-controler input:focus{
+     border: 2px solid yellow;
+     outline: none;
+}
+.container-footer{
+     width: 10%;
+     height: 10%;
+
+}
+.input-item{
+     padding: 10px;
+     
+}
+.input-item .btn33{
+     width: 30%;
+     height: 120%;
+     border-radius: 10px;
+     outline:none;
+     border: 3px solid green;
+}
+.input-item .btn33:hover{
+     background-color: lightgreen;
+     transition: 3s;
+     outline: none;
+}
+hr{
+    width: 40%;
+    height: 0%;
+    border: 2px solid lawngreen;
+    position: absolute;
+    margin-bottom: 94px;
+    box-shadow: 0px 5px 13px green;
+    margin-right: -46px;
+
+}
+.container-footer{
+     margin-left: 30px;
+     display: flex;
+}
+.viewbtn{
+     display: flex;
+     width: 300%;
+     height: 60%;
+     
+}
+.viewbtn-item button{
+    /* border-radius: 5px; */
+  
+}
+.details{
+     /* display: flex; */
+     /* position: absolute; */
+     margin-top: 10px;
+     padding: 2px;
+     background-color: gray;
+     width: 550px;
+     height: 140px;
+     border-radius: 10px;
+}
+.details p{
+     margin-top: -100px;
+} 
+.active{
+     background-color: green;
+     
+}
+.icon{
+     width: 3%;
+     height: 4%;
+     position: absolute;
+     margin-top: 73px;
+     margin-left: 373px;
+}
+.check-icon{
+     width: 3%;
+     height: 4%;    
+     position: absolute;
+     margin-top: 73px;
+     margin-left: 401px;
+}
+     /* .details-container{
+          display: flex;
+          width: 100%;
+          height: 100%;
+     } */
+.controldiv{
+     margin-top: -175px;
+     margin-left: 100px;
+}
+
+/* ---------------------------Media Query----------------------------------------- */
+
+@media only screen and (max-width: 600px) {
+     .container{
+          width: 98%;
+          height: 100%;
+          margin-top: 0px;
+          margin-left: 0px;
+          margin-bottom: 0px;
+     }
+     .input-controler .arrage{
+          
+          width: 300px;
+     }
+     .input-controler .arrang33{
+          margin-top: 80px;
+          margin-left: -4px;
+          position: absolute;
+          width: 305px;
+          height: 32px;
+     }
+     .input-item .btn33{
+          position: absolute;
+          margin-top: 140px;
+          margin-left: -210px;
+          width: 312px;
+          height: 32px;
+     }
+     .bb1{
+          margin-top: 150px;
+
+          width: 364px;
+     }
+     .container-footer{
+          margin-top: 160px;
+          margin-right: -20px;
+     }
+     .controldiv{
+        position: absolute;
+        width: 83%;
+        margin-top: -144px;
+        margin-left: -125px;
+     }
+     .details{
+        width: 315px;
+        height: 76px;
+    }
+    .details h1{
+     position: absolute;
+     margin-top: 5px;
+     width: 100px;
+    }
+    .details p{
+     position: absolute;
+     margin-top: 45px;
+     width: 99px;
+    
+    }
+    .viewbtn-item{
+      width: 100px;
+    } 
+    .controldiv .icon{
+        width: 5%;
+        height: 5%;
+    }
+    .controldiv .check-icon{
+     width: 5%;
+     height: 5%;
+ }
+     }
+
